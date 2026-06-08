@@ -1,4 +1,3 @@
-```javascript
 const csvUpload = document.getElementById("csvUpload");
 const selectedFile = document.getElementById("selectedFile");
 const processingStatus = document.getElementById("processingStatus");
@@ -346,4 +345,3 @@ function renderPriorityMatrix(insights) {
 function capitalize(text) {
     return text.charAt(0).toUpperCase() + text.slice(1);
 }
-```
